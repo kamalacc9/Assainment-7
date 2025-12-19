@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1011,
+    "title": "Payment Method Verification Failed",
+    "description": "Customer is trying to add a new credit card, but it keeps showing a generic verification error.",
+    "customer": "Sarah Jenkins",
+    "priority": "HIGH",
+    "status": "Open",
+    "createdAt": "2024-01-22T09:30:00Z"
+  },
+  {
+    "id": 1012,
+    "title": "Slow Dashboard Loading",
+    "description": "The main analytics dashboard takes more than 15 seconds to load for users with large datasets.",
+    "customer": "Robert Fox",
+    "priority": "MEDIUM",
+    "status": "In-Progress",
+    "createdAt": "2024-01-22T11:15:00Z"
+  },
+  {
+    "id": 1013,
+    "title": "Missing Notification Alerts",
+    "description": "Desktop notifications are not appearing even though the settings are enabled in the browser.",
+    "customer": "Emily Davis",
+    "priority": "LOW",
+    "status": "Open",
+    "createdAt": "2024-01-23T14:20:00Z"
+  },
+  {
+    "id": 1014,
+    "title": "API Connection Timeout",
+    "description": "External integration is failing due to frequent timeout errors on the /v1/sync endpoint.",
+    "customer": "TechCorp Solutions",
+    "priority": "HIGH",
+    "status": "In-Progress",
+    "createdAt": "2024-01-23T16:45:00Z"
+  },
+  {
+    "id": 1015,
+    "title": "Profile Picture Upload Error",
+    "description": "Users receive a 403 Forbidden error when attempting to change their profile picture.",
+    "customer": "Jessica Miller",
+    "priority": "LOW",
+    "status": "Open",
+    "createdAt": "2024-01-24T10:05:00Z"
+  },
+  {
+    "id": 1016,
+    "title": "Duplicate Billing Charges",
+    "description": "Customer was charged twice for the monthly subscription in the January billing cycle.",
+    "customer": "Daniel Martinez",
+    "priority": "HIGH",
+    "status": "Open",
+    "createdAt": "2024-01-24T12:00:00Z"
+  },
+  {
+    "id": 1017,
+    "title": "Search Filter Not Working",
+    "description": "The date range filter in the transaction history page does not return any results.",
+    "customer": "Linda Taylor",
+    "priority": "MEDIUM",
+    "status": "In-Progress",
+    "createdAt": "2024-01-25T08:30:00Z"
+  },
+  {
+    "id": 1018,
+    "title": "Export to CSV Failing",
+    "description": "Clicking 'Export to CSV' results in a 500 Internal Server Error for large reports.",
+    "customer": "Kevin Harris",
+    "priority": "MEDIUM",
+    "status": "Open",
+    "createdAt": "2024-01-25T15:10:00Z"
+  },
+  {
+    "id": 1019,
+    "title": "Account Deactivation Request",
+    "description": "Customer wants to permanently close their account but cannot find the option in settings.",
+    "customer": "Barbara White",
+    "priority": "LOW",
+    "status": "Open",
+    "createdAt": "2024-01-26T11:25:00Z"
+  },
+  {
+    "id": 1020,
+    "title": "Dark Mode UI Glitch",
+    "description": "Text becomes unreadable (white on white) in certain modals when Dark Mode is active.",
+    "customer": "William Clark",
+    "priority": "LOW",
+    "status": "In-Progress",
+    "createdAt": "2024-01-26T17:50:00Z"
+  }
+]

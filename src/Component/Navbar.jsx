@@ -7,7 +7,7 @@ const Navbar = () => {
         CS — Ticket System
       </h3>
       <nav>
-        <ul className="flex gap-3.5 lg:gap-7 lg:flex-row flex-col items-start ">
+        <ul className="flex gap-3.5 lg:gap-7 lg:flex-row flex-col items-start ml-5 ">
           <li>
             <a className="text-black" href="#">
               Home
