@@ -1,6 +1,6 @@
 import "./App.css";
 import Navbar from "./Component/Navbar";
-import States from "./states";
+import Footer from "./Footer";
 import DataContainer from "./DataContainer";
 import { Suspense } from "react";
 const loadData = () => fetch("/Data.json").then((res) => res.json());
@@ -17,6 +17,9 @@ function App() {
           <DataContainer promise={dataPromise}></DataContainer>
         </Suspense>
       </section>
+      <footer>
+        <Footer></Footer>
+      </footer>
     </>
   );
 }
