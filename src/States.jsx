@@ -1,4 +1,4 @@
-const States = () => {
+const States = ({ resolveData, progressData }) => {
   const vectorBase = {
     position: "absolute",
     top: 0,
@@ -40,7 +40,9 @@ const States = () => {
 
         <div className="relative z-10 text-center">
           <h3 className="text-2xl  text-white">In-Progress</h3>
-          <h1 className="font-extrabold text-4xl text-white">0</h1>
+          <h1 className="font-extrabold text-4xl text-white">
+            {progressData.length}
+          </h1>
         </div>
       </div>
 
@@ -71,7 +73,9 @@ const States = () => {
 
         <div className="relative z-10 text-center">
           <h3 className="text-2xl text-white ">Resolved</h3>
-          <h1 className="font-extrabold text-white text-4xl">0</h1>
+          <h1 className="font-extrabold text-white text-4xl">
+            {resolveData.length}
+          </h1>
         </div>
       </div>
     </div>

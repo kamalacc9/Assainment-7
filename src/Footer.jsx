@@ -6,8 +6,10 @@ const Footer = () => {
       <div className="grid grid-cols-1 lg:grid-cols-5 mx-auto py-10 ">
         {/* 1st div */}
         <div className="pl-20 grid  gap-3">
-          <h2 className="text-2xl font-bold">CS — Ticket System</h2>
-          <p>
+          <h2 className="text-2xl font-bold cursor-default">
+            CS — Ticket System
+          </h2>
+          <p className="cursor-default">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
@@ -16,57 +18,57 @@ const Footer = () => {
         </div>
         {/* 2nd div */}
         <div className="pl-20   ">
-          <h1 className="pb-3 font-bold">Company</h1>
+          <h1 className="pb-3 font-bold cursor-default">Company</h1>
           <ul>
-            <li className="pb-3">About Us</li>
-            <li className="pb-3">Our Mission</li>
-            <li className="pb-3">Contact Saled</li>
+            <li className="pb-3 hover:cursor-pointer">About Us</li>
+            <li className="pb-3 hover:cursor-pointer">Our Mission</li>
+            <li className="pb-3 hover:cursor-pointer">Contact Saled</li>
           </ul>
         </div>
 
         {/* 3rd div */}
         <div className="pl-20   ">
-          <h2 className="pb-3 font-bold">Services</h2>
+          <h2 className="pb-3 font-bold cursor-default">Services</h2>
           <ul>
-            <li className="pb-3">Products & Services</li>
-            <li className="pb-3">Customer Stories</li>
-            <li className="pb-3"></li>Download Apps
+            <li className="pb-3 hover:cursor-pointer">Products & Services</li>
+            <li className="pb-3 hover:cursor-pointer">Customer Stories</li>
+            <li className="pb-3 hover:cursor-pointer">Download Apps</li>
           </ul>
         </div>
         {/* 4th div */}
         <div className="pl-20   ">
-          <h2 className="pb-3 font-bold">Information</h2>
+          <h2 className="pb-3 font-bold cursor-default">Information</h2>
           <ul>
-            <li className="pb-3">Privacy Policy</li>
-            <li className="pb-3">Terms & Conditions</li>
-            <li className="pb-3">Join Us</li>
+            <li className="pb-3 hover:cursor-pointer">Privacy Policy</li>
+            <li className="pb-3 hover:cursor-pointer">Terms & Conditions</li>
+            <li className="pb-3 hover:cursor-pointer">Join Us</li>
           </ul>
         </div>
         {/* 5th div */}
         <div className="pl-20   ">
-          <h2 className="pb-3 font-bold">Social Links</h2>
+          <h2 className="pb-3 font-bold cursor-default">Social Links</h2>
           <ul>
-            <li className="pb-3">
-              <i class="fa-brands fa-x-twitter"></i>
+            <li className="pb-3 hover:cursor-pointer">
+              <i className="fa-brands fa-x-twitter"></i>
               <span>@CS — Ticket System</span>
             </li>
-            <li className="pb-3">
+            <li className="pb-3 hover:cursor-pointer">
               <span>
-                <i class="fa-brands fa-linkedin"></i>
+                <i className="fa-brands fa-linkedin"></i>
               </span>
               @CS — Ticket System
             </li>
-            <li className="pb-3">
+            <li className="pb-3 hover:cursor-pointer">
               {" "}
               <span>
-                <i class="fa-brands fa-facebook"></i>
+                <i className="fa-brands fa-facebook"></i>
               </span>
               @CS — Ticket System
             </li>
-            <li className="pb-3">
+            <li className="pb-3 hover:cursor-pointer">
               {" "}
               <span>
-                <i class="fa-solid fa-message"></i>
+                <i className="fa-solid fa-message"></i>
               </span>
               support@cst.com
             </li>

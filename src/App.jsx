@@ -3,6 +3,7 @@ import Navbar from "./Component/Navbar";
 import Footer from "./Footer";
 import DataContainer from "./DataContainer";
 import { Suspense } from "react";
+import { ToastContainer } from "react-toastify";
 const loadData = () => fetch("/Data.json").then((res) => res.json());
 function App() {
   const dataPromise = loadData();
@@ -13,13 +14,14 @@ function App() {
         <Navbar></Navbar>
       </header>
       <section>
-        <Suspense fallback={<h3>Loading...</h3>}>
+        <Suspense>
           <DataContainer promise={dataPromise}></DataContainer>
         </Suspense>
       </section>
       <footer>
         <Footer></Footer>
       </footer>
+      <ToastContainer />
     </>
   );
 }
