@@ -21,12 +21,12 @@ const DataContainer = ({ promise }) => {
   };
 
   const handleDataCard = (problem) => {
-    toast("In-Progress");
     const isExist = progressData.find((pData) => pData.id == problem.id);
     if (isExist) {
-      toast("Problem was allready taken");
+      toast.error("Problem was allready taken");
       return;
     }
+    toast("In-Progress");
     const newProgressData = [...progressData, problem];
     setProgressData(newProgressData);
   };
