@@ -1,5 +1,5 @@
 import React, { use, useState } from "react";
-import States from "./states";
+import States from "./States";
 import CardContainer from "./CardContainer";
 import TaskStatus from "./TaskStatus";
 import { toast } from "react-toastify";
